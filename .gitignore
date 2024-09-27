@@ -170,3 +170,14 @@ dist
 
 .dev.vars
 .wrangler/
+
+llama3.1.json
+train.csv
+guides.md
+autotrain.db
+autotrain.log
+data/*
+govuk-stylehelper
+gemma2b
+gemma7b
+llama3.1
