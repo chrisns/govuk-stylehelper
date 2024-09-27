@@ -1,19 +1,34 @@
 {
-  "name": "hello-ai",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest",
-    "cf-typegen": "wrangler types"
-  },
-  "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.4.5",
-    "@cloudflare/workers-types": "^4.20240821.1",
-    "typescript": "^5.5.2",
-    "vitest": "1.5.0",
-    "wrangler": "^3.60.3"
-  }
+	"name": "govuk-stylehelper",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@azure-rest/ai-inference": "^1.0.0-beta.2",
+		"@azure/core-auth": "^1.7.2",
+		"@azure/core-sse": "^2.1.3",
+		"@cloudflare/vitest-pool-workers": "^0.4.5",
+		"@cloudflare/workers-types": "^4.20240821.1",
+		"@mrodrig/json-2-csv-cli": "^5.5.5",
+		"ansi-colors": "^4.1.3",
+		"cli-progress": "^3.12.0",
+		"csv-validator-js": "^1.1.6",
+		"json-2-csv": "^5.5.5",
+		"node-html-markdown": "^1.3.0",
+		"ollama": "^0.5.8",
+		"tsx": "^4.19.0",
+		"typescript": "^5.5.2",
+		"vitest": "1.5.0",
+		"wrangler": "^3.72.3"
+	},
+	"dependencies": {
+		"mimetext": "^3.0.24"
+	}
 }
